@@ -1,0 +1,3 @@
+[submodule "generators-call-recorder-api"]
+	path = generators-call-recorder-api
+	url = git@bb:novokrest/generators-call-recorder-api.git
