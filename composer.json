@@ -1,0 +1,36 @@
+{
+    "name": "novokrest/php-call-recorder-api",
+    "description": "",
+    "keywords": [
+        "php",
+        "call",
+        "recorder",
+        "api"
+    ],
+    "homepage": "https://github.com/novokrest/php-call-recorder-api",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "novokrest",
+            "homepage": "https://github.com/novokrest"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^6.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "squizlabs/php_codesniffer": "~2.6",
+        "friendsofphp/php-cs-fixer": "~2.15"
+    },
+    "autoload": {
+        "psr-4": { "Call\\Recorder\\Client\\" : "lib/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Call\\Recorder\\Client\\" : "test/" }
+    }
+}
